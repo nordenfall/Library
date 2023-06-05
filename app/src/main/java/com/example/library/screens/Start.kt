@@ -7,5 +7,4 @@ import androidx.navigation.NavHostController
 
 @Composable
 fun Start(navController: NavHostController) {
-    Text(text = "some test")
 }

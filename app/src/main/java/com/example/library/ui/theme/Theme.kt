@@ -28,7 +28,7 @@ private val LightColorScheme = lightColorScheme(
     secondary = PurpleGrey40,
     tertiary = Pink40,
     onTertiary = Color.White,
-    background = Color(0xFFFFFBFE)
+    background = Color.White
 
 
     /* Other default colors to override

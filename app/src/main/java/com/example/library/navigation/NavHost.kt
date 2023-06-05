@@ -15,7 +15,6 @@ import com.example.library.screens.Tags
 @Composable
 fun LibraryNavHost(){
     val navController = rememberNavController()
-    
     NavHost(navController = navController, startDestination =  NavRoute.Start.route){
         composable(NavRoute.Start.route){ Start(navController = navController) }
         composable(NavRoute.Main.route){ Main(navController = navController) }
