@@ -41,25 +41,12 @@ class MainActivity : ComponentActivity() {
         setContent {
             LibraryTheme {
                 Scaffold(
-                    /*topBar = {
-                        TopAppBar(
-                            title = {
-                                Text(text = "Главная",
-                                     fontWeight = FontWeight.Medium,
-                                     fontSize = 32.sp)
-                            },
-                            colors = TopAppBarDefaults.smallTopAppBarColors(
-                                titleContentColor = HeadlineText,
-                                containerColor = AppBackground,
-                            ),
-                        )
-                    },*/
                     content = {padding->
                         Surface(
                             modifier = Modifier
                                 .padding(padding)
-                                .fillMaxSize(),
-                            color = AppBackground
+                                .fillMaxSize()
+                                .background(AppBackground),
                         ){
                             LibraryNavHost()
                         }

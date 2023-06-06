@@ -103,10 +103,3 @@ fun StartScreen(navController: NavHostController) {
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-fun prevStartScreen(){
-    LibraryTheme {
-        StartScreen(navController = rememberNavController())
-    }
-}
