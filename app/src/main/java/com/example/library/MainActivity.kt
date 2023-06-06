@@ -24,8 +24,11 @@ import androidx.compose.material3.contentColorFor
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.sp
 import com.example.library.navigation.LibraryNavHost
 import com.example.library.ui.theme.AppBackground
 import com.example.library.ui.theme.HeadlineText
@@ -38,27 +41,19 @@ class MainActivity : ComponentActivity() {
         setContent {
             LibraryTheme {
                 Scaffold(
-                    topBar = {
+                    /*topBar = {
                         TopAppBar(
                             title = {
-                                Text(text = "Главная")
-                            },
-                            navigationIcon = {
-                                IconButton(onClick = { /*TODO*/ }) {
-                                    Icon(
-                                        imageVector = Icons.Rounded.ArrowBack,
-                                        contentDescription = "Arrow Back",
-
-                                        )
-                                }
+                                Text(text = "Главная",
+                                     fontWeight = FontWeight.Medium,
+                                     fontSize = 32.sp)
                             },
                             colors = TopAppBarDefaults.smallTopAppBarColors(
                                 titleContentColor = HeadlineText,
                                 containerColor = AppBackground,
-                                navigationIconContentColor = Color.Black
                             ),
                         )
-                    },
+                    },*/
                     content = {padding->
                         Surface(
                             modifier = Modifier

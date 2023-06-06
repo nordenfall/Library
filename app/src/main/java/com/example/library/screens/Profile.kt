@@ -5,5 +5,5 @@ import androidx.navigation.NavHostController
 import com.example.library.navigation.NavRoute
 
 @Composable
-fun Profile(navController: NavHostController) {
+fun ProfileScreen(navController: NavHostController) {
 }

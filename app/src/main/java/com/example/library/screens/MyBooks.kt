@@ -4,5 +4,5 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 
 @Composable
-fun MyBooks(navController: NavHostController) {
+fun MyBooksScreen(navController: NavHostController) {
 }

@@ -5,5 +5,5 @@ import androidx.navigation.NavHostController
 import com.example.library.navigation.NavRoute
 
 @Composable
-fun Notes(navController: NavHostController) {
+fun NotesScreen(navController: NavHostController) {
 }
