@@ -44,19 +44,15 @@ fun MainScreen(navController: NavHostController) {
             )
         },
         content = {padding->
-            Column(
+            Surface(
                 modifier = Modifier
-                    .fillMaxSize()
-                    .padding(horizontal = 8.dp, vertical = 8.dp)
-                    .background(AppBackground),
-                horizontalAlignment = Alignment.Start
-            ){
-                Text(
-                    text = "Основное",
-                    color = Color.Black,
-                    fontSize = 14.sp
-                )
+                    .padding(padding)
+                    .fillMaxSize(),
+                color = AppBackground
+            ) {
+
             }
+
         }
     )
 }
